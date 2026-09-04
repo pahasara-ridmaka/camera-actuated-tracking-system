@@ -3,7 +3,7 @@ import numpy as np
 import time
 import serial
 import os
-import config as cfg
+import config.config as cfg
 
 # --- Load Color Configuration ---
 ccfg = None
