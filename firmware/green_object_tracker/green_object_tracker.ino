@@ -1,7 +1,7 @@
 #include <Servo.h>
 
 // --- Constants ---
-// Servo pins based on user specification
+// Servo pins 
 const int PAN_SERVO_PIN = 10; // Base servo
 const int TILT_SERVO_PIN = 9;  // Up-down servo
 
@@ -9,7 +9,7 @@ const int LED_LOCKED_PIN = 2;    // LED for when target is successfully tracked
 const int LED_SEARCHING_PIN = 3; // LED for when tracking has started and is searching
 const int STATUS_OUTPUT_PIN = 5; // Combined status output of pin 2 and 3
 
-// Pin 5 is now used for status output, so trigPin is moved to pin 6.
+// Pin 5 is used for status output, trigPin is pin 6.
 const int trigPin = 6;
 const int echoPin = 4;
 
