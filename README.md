@@ -5,6 +5,13 @@
 
 The Camera Actuated Tracking System is a fully automated, precise, and responsive visual servoing loop. It autonomously detects, tracks, and targets objects using computer vision.
 
+
+
+
+https://github.com/user-attachments/assets/9c2a42e6-5633-4ece-8fd1-d045276d779a
+
+
+
 -----
 
 ## System Architecture & Hardware Components
