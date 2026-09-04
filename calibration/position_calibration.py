@@ -3,7 +3,7 @@ import numpy as np
 import os
 import time
 import serial
-import config as cfg
+import config.config as cfg
 
 def get_object_position(cap, lower_bound, upper_bound):
     """
@@ -202,7 +202,7 @@ def distance_calibration():
 
     # --- Color Setup ---
     try:
-        import color_config as ccfg
+        import config.color_config as ccfg
         lower_bound = ccfg.GREEN_LOWER
         upper_bound = ccfg.GREEN_UPPER
         print("Loaded color configuration from 'color_config.py'.")
